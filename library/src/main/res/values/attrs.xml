@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndicatorView">
+        <!--默认状态的drawable-->
+        <attr name="normalDrawable" format="reference" />
+        <!--被选中状态的drawable-->
+        <attr name="selectedDrawable" format="reference" />
+        <!--列数-->
+        <attr name="column" format="integer" />
+        <!--行数-->
+        <attr name="row" format="integer" />
+        <!--错误状态的drawabe-->
+        <attr name="erroDrawable" format="reference" />
+        <!--padding值，padding值越大点越小-->
+        <attr name="padding" format="dimension" />
+        <!--默认连接线颜色-->
+        <attr name="normalStrokeColor" format="color" />
+        <!--错误连接线颜色-->
+        <attr name="erroStrokeColor" format="color" />
+        <!--连接线size-->
+        <attr name="strokeWidth" format="dimension" />
+    </declare-styleable>
+</resources>
